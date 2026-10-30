@@ -3,8 +3,8 @@ package engine
 import (
 	"testing"
 
-	"github.com/idunn-cloud/norn/internal/plan"
-	"github.com/idunn-cloud/norn/internal/policy"
+	"github.com/a2devops/norn/internal/plan"
+	"github.com/a2devops/norn/internal/policy"
 )
 
 func TestEvaluateFixture(t *testing.T) {

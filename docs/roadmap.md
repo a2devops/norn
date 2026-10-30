@@ -112,7 +112,7 @@ This is one of the clearest gaps between a useful OSS prototype and a tool teams
 **Suggested file shape**
 
 ```yaml
-apiVersion: norn.idunn.cloud/v1alpha1
+apiVersion: norn.a2devops.com/v1alpha1
 kind: ExceptionSet
 exceptions:
   - policy: az-keyvault-no-delete

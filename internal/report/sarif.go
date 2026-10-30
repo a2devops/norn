@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/idunn-cloud/norn/internal/engine"
-	"github.com/idunn-cloud/norn/internal/policy"
+	"github.com/a2devops/norn/internal/engine"
+	"github.com/a2devops/norn/internal/policy"
 )
 
 // SARIF writes findings in SARIF 2.1.0 format for code scanning systems.
@@ -24,7 +24,7 @@ func SARIF(w io.Writer, fs []engine.Finding, overrides map[string]bool, toolVers
 		Runs: []sarifRun{{
 			Tool: sarifTool{Driver: sarifDriver{
 				Name:           "norn",
-				InformationURI: "https://github.com/idunn-cloud/norn",
+				InformationURI: "https://github.com/a2devops/norn",
 				Version:        toolVersion,
 				Rules:          rules,
 			}},

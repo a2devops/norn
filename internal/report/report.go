@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/idunn-cloud/norn/internal/engine"
-	"github.com/idunn-cloud/norn/internal/policy"
+	"github.com/a2devops/norn/internal/engine"
+	"github.com/a2devops/norn/internal/policy"
 )
 
 // Outcome is what a finding means for this run, after enforcement and overrides.

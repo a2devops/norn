@@ -1,6 +1,6 @@
 # Norn
 
-[![GitHub Release](https://img.shields.io/github/v/release/idunn-cloud/norn?include_prereleases)](https://github.com/idunn-cloud/norn/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/a2devops/norn?include_prereleases)](https://github.com/a2devops/norn/releases)
 
 **Decide your plan's fate before apply.**
 
@@ -66,7 +66,7 @@ These are planned, but not finished in the current alpha:
 Until the first packaged release exists, run Norn from source or install it with Go.
 
 ```sh
-go install github.com/idunn-cloud/norn/cmd/norn@latest
+go install github.com/a2devops/norn/cmd/norn@latest
 
 terraform plan -out tfplan
 terraform show -json tfplan > plan.json
@@ -125,7 +125,7 @@ norn test --policies ./policies --tests ./testdata/tests
 ```
 
 ```yaml
-apiVersion: norn.idunn.cloud/v1alpha1
+apiVersion: norn.a2devops.com/v1alpha1
 kind: PolicyTest
 metadata:
   name: smoke
