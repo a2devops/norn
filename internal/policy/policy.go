@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	APIVersion = "norn.idunn.cloud/v1alpha1"
+	APIVersion = "norn.a2devops.com/v1alpha1"
 	Kind       = "PolicySet"
 )
 

@@ -12,7 +12,7 @@ import (
 	"cel.dev/cel-go/ext"
 	tfjson "github.com/hashicorp/terraform-json"
 
-	"github.com/idunn-cloud/norn/internal/policy"
+	"github.com/a2devops/norn/internal/policy"
 )
 
 // Status is the raw result of evaluating one policy against one resource change.

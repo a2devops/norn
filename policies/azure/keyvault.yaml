@@ -1,4 +1,4 @@
-apiVersion: norn.idunn.cloud/v1alpha1
+apiVersion: norn.a2devops.com/v1alpha1
 kind: PolicySet
 metadata:
   name: azure-keyvault

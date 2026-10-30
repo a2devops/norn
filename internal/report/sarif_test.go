@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/idunn-cloud/norn/internal/engine"
-	"github.com/idunn-cloud/norn/internal/policy"
+	"github.com/a2devops/norn/internal/engine"
+	"github.com/a2devops/norn/internal/policy"
 )
 
 func TestSARIF(t *testing.T) {

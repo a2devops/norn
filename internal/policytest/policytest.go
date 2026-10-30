@@ -11,15 +11,15 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/idunn-cloud/norn/internal/engine"
-	"github.com/idunn-cloud/norn/internal/plan"
-	"github.com/idunn-cloud/norn/internal/policy"
-	"github.com/idunn-cloud/norn/internal/report"
+	"github.com/a2devops/norn/internal/engine"
+	"github.com/a2devops/norn/internal/plan"
+	"github.com/a2devops/norn/internal/policy"
+	"github.com/a2devops/norn/internal/report"
 	"gopkg.in/yaml.v3"
 )
 
 const (
-	APIVersion = "norn.idunn.cloud/v1alpha1"
+	APIVersion = "norn.a2devops.com/v1alpha1"
 	Kind       = "PolicyTest"
 )
 

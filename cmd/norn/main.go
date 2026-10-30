@@ -11,11 +11,11 @@ import (
 
 	"encoding/json"
 
-	"github.com/idunn-cloud/norn/internal/engine"
-	"github.com/idunn-cloud/norn/internal/plan"
-	"github.com/idunn-cloud/norn/internal/policy"
-	"github.com/idunn-cloud/norn/internal/policytest"
-	"github.com/idunn-cloud/norn/internal/report"
+	"github.com/a2devops/norn/internal/engine"
+	"github.com/a2devops/norn/internal/plan"
+	"github.com/a2devops/norn/internal/policy"
+	"github.com/a2devops/norn/internal/policytest"
+	"github.com/a2devops/norn/internal/report"
 )
 
 var version = "dev" // set at build time: -ldflags "-X main.version=v0.1.0"

@@ -16,7 +16,7 @@ func writePolicy(t *testing.T, body string) string {
 	return p
 }
 
-const header = "apiVersion: norn.idunn.cloud/v1alpha1\nkind: PolicySet\npolicies:\n"
+const header = "apiVersion: norn.a2devops.com/v1alpha1\nkind: PolicySet\npolicies:\n"
 
 func TestLoadAppliesDefaults(t *testing.T) {
 	ps, err := Load(writePolicy(t, header+`
